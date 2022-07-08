@@ -13,7 +13,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="navbar__container">
-          <Link to={"/"} className="navbar__container__logo">
+          <Link to={"/sangam-mukherjee/"} className="navbar__container__logo">
             <FaReact size={30} />
           </Link>
           <ul className={click ? "navbar__container__menu active" : "navbar__container__menu"}>

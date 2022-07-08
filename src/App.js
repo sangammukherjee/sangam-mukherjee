@@ -37,10 +37,10 @@ function App() {
         <Theme />
         <Routes>
           {/* create all routes */}
-          <Route path="/" index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/sangam-mukherjee/" index element={<Home />} />
+          <Route path="/sangam-mukherjee/about" element={<About />} />
+          <Route path="/sangam-mukherjee/skills" element={<Skills />} />
+          <Route path="/sangam-mukherjee/resume" element={<Resume />} />
         </Routes>
       </div>
     </div>
