@@ -1,0 +1,112 @@
+.resume {
+  height: 100%;
+}
+
+.timeline {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+
+  &__experience,
+  &__education {
+    width: 50%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__header-text {
+      display: inline-block;
+      color: var(--selected-theme-sub-text-color);
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1rem;
+      letter-spacing: 0.5px;
+      position: relative;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border-bottom: 2px solid var(--selected-theme-main-color);
+    }
+
+    &__header-text::before,
+    &__header-text::after {
+      position: absolute;
+      content: "";
+      width: 2px;
+      height: 5px;
+      background-color: var(--selected-theme-main-color);
+      bottom: -1px;
+    }
+
+    &__header-text::before {
+      left: 0;
+    }
+
+    &__header-text::after {
+      right: 0;
+    }
+
+    .vertical-timeline-element {
+      padding: 0px 0px 30px 0px;
+      &:last-child {
+        padding: 0px;
+      }
+
+      .vertical-timeline-element-content {
+        box-shadow: none;
+        padding: 20px 20px;
+
+        .vertical-timeline-element-date {
+          font-size: 2rem;
+          color: var(--selected-theme-sub-text-color);
+          opacity: 1;
+        }
+      }
+
+      .vertical-timeline-element-content-arrow {
+        display: none;
+      }
+
+      .vertical-timeline-element-title-wrapper {
+        display: flex;
+        align-items: center;
+
+        h3,
+        h4 {
+          font-size: 15px;
+          color: var(--selected-theme-sub-text-color);
+        }
+
+        h4 {
+          margin-left: 8px;
+        }
+      }
+      .vertical-timeline-element-stream-wrapper{
+        margin: 10px 0px 0px 0px;
+        font-size: 18px;
+        color: var(--selected-theme-sub-text-color);
+      }
+      .vertical-timeline-element-description-wrapper {
+        font-size: 18px;
+        color: var(--selected-theme-sub-text-color);
+        margin-top: 20px;
+        li{
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+    width: 100%;
+
+    &__experience,
+    &__education {
+      width: 100%;
+      gap: 2.5rem;
+    }
+  }
+}

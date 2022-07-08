@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+:root {
+  --selected-theme-background-color: var(--yellow-theme-background-color);
+  --selected-theme-main-color: var(--yellow-theme-main-color);
+  --selected-theme-sub-text-color: var(--yellow-theme-sub-text-color);
+  --selected-theme-nav-background-color: var(
+    --yellow-theme-nav-background-color
+  );
+
+  /* primary color yellow */
+  --yellow-theme-background-color: #1d1d1d;
+  --yellow-theme-main-color: #ffdd40;
+  --yellow-theme-sub-text-color: #ffffff;
+  --yellow-theme-nav-background-color: #181818;
+
+  /* secondary color red */
+  --red-theme-background-color: #1d1d1d;
+  --red-theme-main-color: #e82a2a;
+  --red-theme-sub-text-color: #ffffff;
+  --red-theme-nav-background-color: #181818;
+
+  /* secondary color green */
+  --green-theme-background-color: #1d1d1d;
+  --green-theme-main-color: #6ac045;
+  --green-theme-sub-text-color: #ffffff;
+  --green-theme-nav-background-color: #181818;
+
+ /* secondary color blue */
+  --blue-theme-background-color: #1d1d1d;
+  --blue-theme-main-color: #5078ff;
+  --blue-theme-sub-text-color: #ffffff;
+  --blue-theme-nav-background-color: #181818;
+
+  --font-base: "Roboto Slab", serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  background: var(--selected-theme-background-color);
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
