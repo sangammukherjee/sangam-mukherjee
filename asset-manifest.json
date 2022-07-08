@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sangam-mukherjee/static/css/main.fb8101a2.css",
+    "main.js": "/sangam-mukherjee/static/js/main.d467d076.js",
+    "static/media/Sangam_Mukherjee_Resume_2022.pdf": "/sangam-mukherjee/static/media/Sangam_Mukherjee_Resume_2022.60a9a053d9a3280a90d2.pdf",
+    "index.html": "/sangam-mukherjee/index.html",
+    "main.fb8101a2.css.map": "/sangam-mukherjee/static/css/main.fb8101a2.css.map",
+    "main.d467d076.js.map": "/sangam-mukherjee/static/js/main.d467d076.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb8101a2.css",
+    "static/js/main.d467d076.js"
+  ]
+}
