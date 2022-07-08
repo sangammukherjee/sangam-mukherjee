@@ -21,7 +21,7 @@ export const skillsData = [
     ],
   },
   {
-    label: "LIBARIES",
+    label: "LIBRARIES",
     data: [
       {
         skillName: "REACT JS",
