@@ -1,18 +1,18 @@
 export const navMenus = [
   {
     label: "HOME",
-    to: "/",
+    to: "/sangam-mukherjee/",
   },
   {
     label: "ABOUT ME",
-    to: "/about",
+    to: "/sangam-mukherjee/about",
   },
   {
     label: "SKILLS",
-    to: "/skills",
+    to: "/sangam-mukherjee/skills",
   },
   {
     label: "RESUME",
-    to: "/resume",
+    to: "/sangam-mukherjee/resume",
   }
 ];
